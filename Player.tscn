@@ -8,7 +8,7 @@
 custom_solver_bias = 0.0
 extents = Vector2( 14.831, 30 )
 
-[node name="Player" type="Area2D"]
+[node name="Player" type="Area2D" index="0"]
 
 position = Vector2( 140, 500 )
 input_pickable = true
@@ -22,7 +22,7 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
-active_control_method = 1
+active_control_method = 0
 speed = 400
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
